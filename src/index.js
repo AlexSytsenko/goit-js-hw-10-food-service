@@ -1,4 +1,3 @@
 import './styles.css';
 import "./js/templating";
-import './js/localstorageTheme';
-
+import './js/switchTheme';
