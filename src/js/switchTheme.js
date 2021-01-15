@@ -12,7 +12,8 @@ checkLocalStorage();
 switchThemeRef.addEventListener('change', handlerSwitch);
 
 function handlerSwitch() {
-    bodyRef.classList.contains(Theme.LIGHT) ? setDarkTheme() : setLightTheme();
+    // bodyRef.classList.contains(Theme.LIGHT) ? setDarkTheme() : setLightTheme();
+    switchThemeRef.checked === true ? setDarkTheme() : setLightTheme();
 }
 
 function checkLocalStorage() {
